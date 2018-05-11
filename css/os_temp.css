@@ -1,0 +1,399 @@
+.os_none.bor_right{
+	border-right:solid 1px #DDDDDD !important;	
+}
+.os_none.bor_left{
+	border-left:solid 1px #DDDDDD !important;	
+}
+.os_none {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border-left: medium none !important;
+}
+.os_fav {
+    background: url("../img/fav.png") no-repeat scroll 0 -17px rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    width: 18px;
+}
+.os_fav:hover {
+    background: url("../img/fav.png") no-repeat scroll 0 0px rgba(0, 0, 0, 0);
+}
+
+.os_edite_icon {
+    background: url("../img/edit_inline.png") no-repeat scroll 4px 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    width: 24px;
+}
+.os_volum{
+    background: url(../img/view_status.png) scroll 0 -17px rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    width: 18px;
+	}
+
+.os_magec {
+    background: url("../img/edit_wizard.png") no-repeat scroll 6px 1px rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    width: 24px;
+}
+.os_email{
+    background: url("../img/emil.png") no-repeat scroll 6px 1px rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    width: 24px;}
+.os_sms{
+    background: url("../img/sms.png") no-repeat scroll 6px 1px rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    width: 24px;	
+}
+
+.os_info_btn {
+    background: url("../img/info_inline.png") no-repeat scroll 4px 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    width: 24px;
+}
+.no_border{
+	border:none !important;
+}
+.os_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 33px;
+}
+.dropdown-menu {
+    left: auto;
+    right: 0 !important;
+}
+
+.small-input
+{
+	width:100px !important;
+	margin-bottom:15px !important;
+}
+
+.title
+{
+	float:left;
+	width:98%;
+	padding:0 1%;
+	font-size:18px;
+}
+
+.title2
+{
+	/*float:left;*/
+	width:98%;
+	padding:0 1%;
+	
+}
+
+.title3
+{
+	float:left;
+	font-size:18px;
+	
+	
+}
+
+
+
+.check1
+{
+	float:left;
+}
+
+.label1
+{
+	float:left;
+	padding-left:5px;
+}
+
+.head-bg
+{
+	float:left;
+	width:100%;
+	font-size:18px;
+	color:#666;
+}
+
+.dash-block
+{
+	float:left;
+	width:100%;
+}
+
+.crm_form
+{
+	float:left;
+	width:98%;
+	margin:0 1%;
+	padding-bottom:50px;
+}
+
+.fav-icon
+{
+	float:left;
+	margin-left:10px;
+	margin-top:8px;
+}
+
+.record {
+    float:left;
+	width:96%;
+    padding: 10px 20px 10px 10px;
+	margin-bottom:20px;
+	border-bottom:1px solid #ccc;
+}
+
+.record .record-cell .record-label {
+    color: #AEAEAE;
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+
+.record .record-cell {
+    display: inline-block;
+    margin-bottom: 7px;
+    min-height: 43px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.record .normal {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.record .record-cell .normal > span {
+    display: block;
+}
+
+.record .record-edit-link-wrapper {
+    left: -18px;
+    top: 15px;
+	opacity:0.7;
+}
+
+.record-edit-link-wrapper {
+    position: absolute;
+    z-index: 0;
+}
+
+.record-edit-link-wrapper .record-edit-link {
+    cursor: pointer;
+    display: none;
+    padding: 4px 7px;
+    text-decoration: none;
+}
+
+.btn.btn-invisible {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: none;
+    outline: medium none;
+}
+
+.record-edit-link-wrapper .record-edit-link.btn-invisible:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+	
+}
+
+.btn.btn-invisible:hover:not(.disabled) {
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    color: #58595B;
+    text-shadow: none;
+}
+
+.record-cell:hover .record-edit-link
+{
+	display:inline-block;
+	font-weight: 500;
+    margin-left: 8px;
+	
+}
+
+.record .record-cell[data-type="fieldset"] .ellipsis_inline {
+    height: 18px;
+    margin-bottom: 0;
+}
+
+.record .record-cell .ellipsis_inline {
+    display: block !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.record .record-cell input[type="text"], .record .record-cell input[type="password"], .record .record-cell textarea, .record .record-cell .uneditable-input {
+    color: #58595B;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: -7px;
+    margin-top: -5px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.subpanel-header .label-module-sm {
+    height: 26px;
+    margin: 7px 10px;
+    width: 26px;
+}
+
+.label-Contacts {
+    background-color: #245A09;
+}
+
+.label-module-sm {
+    border: medium none;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: 400;
+    height: 22px;
+    line-height: 11px;
+    margin: 0;
+    padding: 2px 0 0 2px;
+    width: 22px;
+}
+
+.subpanel-header {
+   
+    cursor: pointer;
+    display: block;
+    height: 44px;
+}
+
+.label-Opportunities {
+    background-color: #7115CE;
+}
+
+.main-content
+{
+	float:left;
+	width:100%;
+	
+}
+
+.adv-search
+{
+	float:left;
+	width:100%;
+}
+
+.adv-search .form-search
+{
+	float:left;
+	margin-bottom:0;
+}
+
+.adv-search .dropdown-menu1
+{
+	left:0 !important;
+
+}
+
+
+.adv-search .dropdown-menu2
+{
+	left:-83px !important;
+	
+}
+
+.details
+{
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+}
+
+.scrollspy-example {
+    height: 80px;
+    overflow: auto;
+	right:auto !important;
+}
+
+.label-Leads {
+    background-color: #448FEC;
+}
+
+.label-Cases {
+    background-color: #B81213;
+}
+
+
+.label-RevenueLineItems {
+    background-color: #4B0E88;
+}
+
+.small-input2
+{
+	width:65px !important;
+	margin-bottom:0 !important;
+}
+
+.input-medium
+{
+	margin-bottom:0 !important;
+}
+
+.new-text
+{
+	float:left;
+	width:98%;
+}
+
+.submit-bt
+{
+	float:right;
+	margin-right:10px;
+}
+
+.s-icons
+{
+	float:left;
+	margin:0 5px;
+}
+
+.s-icons:hover
+{
+	text-decoration:none !important;
+}
+
+.form-left
+{
+	float:left;
+	width:50%;
+}
+
+.form-right
+{
+	float:left;
+	width:50%;
+}
+
+.accord
+{
+	margin-bottom:20px !important;
+}
+
+.col-result
+{
+	margin-bottom:20px;
+}
+
+.text-mid
+{
+	width:430px !important;
+}
+
